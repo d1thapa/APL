@@ -1,0 +1,33 @@
+CLASS Album()
+BEGIN
+	PROC print()
+	BEGIN
+		PRINT "None"
+	END
+END
+
+CLASS EP() : Album
+BEGIN
+	PRIVATE value
+	BOOLEAN good
+	
+	value := 5
+	good := true
+	
+	OVERRIDE PROC print()
+	BEGIN
+		IF good = true
+		BEGIN
+			PRINT value
+		END
+		ELSE
+		BEGIN
+			PRINT "bad"
+		END
+	END
+END
+
+PROC Main()
+BEGIN
+	PRINT "HELLO"
+END

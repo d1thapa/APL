@@ -1,0 +1,19 @@
+# Create a function which takes two arguments, an array and the number of elements in the array.
+#Have this function print the contents of the array, one entry per line.
+
+
+Number a [1,1]
+Number b 
+b := 2
+PROC c ()
+BEGIN
+Number d
+d := 0 
+WHILE d < b
+BEGIN
+PRINT d
+d := d + 1
+
+END
+
+END
